@@ -1,0 +1,62 @@
+body{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0;
+    align-items: center;
+    text-align: center;
+}
+
+.principal{
+    width: 35%;
+    align-items: center;
+}
+
+.comeco{
+    width: 100%;
+    background-color:  #8d0082;
+    color: white;
+    margin-bottom: 20px;
+}
+
+img{
+    border-radius: 50%;
+    width: 230px;
+    border: 5px solid #8d0082;
+}
+
+.titulo{
+    margin: 10px, 0px, 10px, 20px;
+    float: left;
+    margin-left: 10px;
+}
+
+.alinhamento{
+    display: flex;
+    flex-direction: row;
+}
+
+.fim {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: white;
+    color: black;
+    padding: 5px 0;
+    font-size: 12px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    border: 1px solid grey;
+    height: 20px;
+}
+
+.fim p, .fim h1 {
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.principal h2{
+    color: #8d0082;
+}
